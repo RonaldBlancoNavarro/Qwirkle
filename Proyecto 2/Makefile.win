@@ -1,0 +1,55 @@
+# Project: Qwirkle
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = main.o Ficha.o Cuadro_Texto.o Boton.o Bolsa.o Jugador.o Maquina.o Partida.o Menu_Principal.o Nodo_Ficha.o
+LINKOBJ  = main.o Ficha.o Cuadro_Texto.o Boton.o Bolsa.o Jugador.o Maquina.o Partida.o Menu_Principal.o Nodo_Ficha.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -lbgi -lgdi32 -luser32 -m32 -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Qwirkle.exe
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Ficha.o: Ficha.cpp
+	$(CPP) -c Ficha.cpp -o Ficha.o $(CXXFLAGS)
+
+Cuadro_Texto.o: Cuadro_Texto.cpp
+	$(CPP) -c Cuadro_Texto.cpp -o Cuadro_Texto.o $(CXXFLAGS)
+
+Boton.o: Boton.cpp
+	$(CPP) -c Boton.cpp -o Boton.o $(CXXFLAGS)
+
+Bolsa.o: Bolsa.cpp
+	$(CPP) -c Bolsa.cpp -o Bolsa.o $(CXXFLAGS)
+
+Jugador.o: Jugador.cpp
+	$(CPP) -c Jugador.cpp -o Jugador.o $(CXXFLAGS)
+
+Maquina.o: Maquina.cpp
+	$(CPP) -c Maquina.cpp -o Maquina.o $(CXXFLAGS)
+
+Partida.o: Partida.cpp
+	$(CPP) -c Partida.cpp -o Partida.o $(CXXFLAGS)
+
+Menu_Principal.o: Menu_Principal.cpp
+	$(CPP) -c Menu_Principal.cpp -o Menu_Principal.o $(CXXFLAGS)
+
+Nodo_Ficha.o: Nodo_Ficha.cpp
+	$(CPP) -c Nodo_Ficha.cpp -o Nodo_Ficha.o $(CXXFLAGS)
