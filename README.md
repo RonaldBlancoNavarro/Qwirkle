@@ -1,2 +1,2 @@
-# Qwirkle-C-
+# Qwirkle-C++
 Qwirkle C++
