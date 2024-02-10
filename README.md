@@ -7,7 +7,7 @@ Qwirkle is a board game that combines elements of dominoes and Scrabble, where p
 
 In this game, the player and the machine alternate turns placing tiles on a board, trying to form lines that award points. Each tile has a shape and a color, and players earn points for each tile they place and for completing lines that meet certain conditions.
 
-In Qwirkle, a player wins by finishing the game and adding up the points of all the tiles placed on the board, with the player with the highest score being declared the winner. Bonuses are awarded for Qwirkles and for being the first to place all tiles. If there is a tie in the score, it is considered a tie between the players involved(player and machine).
+In Qwirkle, a player wins by finishing the game and adding up the points of all the tiles placed on the board, with the player with the highest score being declared the winner. Bonuses are awarded for Qwirkles and for being the first to place all tiles. If there is a tie in the score, it is considered a tie between the players involved(player and machine).Language: Spanish.
 
 ILLUSTRATIVE IMAGES:
 
