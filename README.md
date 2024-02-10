@@ -1,15 +1,15 @@
-# # Qwirkle-C++
-Proyecto del curso de Programacion I, Universidad Nacional
+# Qwirkle-C++
+Project of the Programming I course, National University of Costa Rica.
 
-Software desarrollado en C++ con la librería grafica WINBGIM, que consiste en un juego basado en Qwirkle, donde un jugador  juega contra el algoritmo que juega de acuerdo con ciertas reglas y estrategias programadas en el código.
+Software developed in C++ with the WINBGIM graphics library, consisting of the board game Qwirkle.
 
-Qwirkle es un juego de mesa que combina elementos de dominó y Scrabble, donde los jugadores intentan crear líneas de fichas que comparten un color o una forma sin repetir ninguna ficha en la línea.
+Qwirkle is a board game that combines elements of dominoes and Scrabble, where players try to create lines of tiles that share a color or shape without repeating any tiles in the line called Qwirkles (lines of six tiles of the same color or shape without repeating).
 
-En este juego, el jugador y la maquina alternan turnos colocando fichas en un tablero, tratando de formar líneas que les otorguen puntos. Cada ficha tiene una forma y un color, y los jugadores ganan puntos por cada ficha que colocan y por completar líneas que cumplan con ciertas condiciones.
+In this game, the player and the machine alternate turns placing tiles on a board, trying to form lines that award points. Each tile has a shape and a color, and players earn points for each tile they place and for completing lines that meet certain conditions.
 
-En Qwirkle, un jugador gana al finalizar el juego y sumar los puntos de todas las fichas colocadas en el tablero, siendo declarado ganador aquel con la puntuación más alta. Se otorgan bonificaciones por Qwirkles (líneas de seis fichas del mismo color o forma sin repetir) y por ser el primero en colocar todas las fichas. Si hay un empate en la puntuación, se considera un empate entre los jugadores involucrados.
+In Qwirkle, a player wins by finishing the game and adding up the points of all the tiles placed on the board, with the player with the highest score being declared the winner. Bonuses are awarded for Qwirkles and for being the first to place all tiles. If there is a tie in the score, it is considered a tie between the players involved(player and machine).
 
-IMAGENES ILUSTRATIVAS:
+ILLUSTRATIVE IMAGES:
 
 [![Quirkle1.png](https://i.postimg.cc/7YvYM37Z/Quirkle1.png)](https://postimg.cc/9zphcqJ6)
 
